@@ -1,5 +1,7 @@
 import javax.swing.JOptionPane;
 
+import splash.Splash;
+
 public class Teste {
 
 	public static void main(String[] args) {
@@ -8,7 +10,7 @@ public class Teste {
 		Pessoa p = new Pessoa();
 		DiaSemana ds = new DiaSemana();
 
-		ds.charger();
+		new Splash();
 
 		p.setNome(JOptionPane.showInputDialog(null, "Informe o nome: "));
 		p.setDia(JOptionPane.showInputDialog(null, "Informe um dia da semana: "));
