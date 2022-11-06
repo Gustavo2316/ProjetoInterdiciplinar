@@ -14,7 +14,6 @@ public class DiaSemana extends Pessoa {
 			JOptionPane.showMessageDialog(null, charge[i], "ACADEMIA TRAINER",
 					JOptionPane.INFORMATION_MESSAGE);
 		}
-
 	}
 
 	public void academiaFechada() {
