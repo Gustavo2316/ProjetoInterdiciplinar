@@ -17,7 +17,7 @@ public class DiaSemana extends Pessoa {
 	}
 
 	public void academiaFechada() {
-		JOptionPane.showMessageDialog(null, "ACADEMIA FECHADA", "ACADEMIA MAROMBA", JOptionPane.INFORMATION_MESSAGE);
+		JOptionPane.showMessageDialog(null, "ACADEMIA FECHADA", "ACADEMIA TRAINER", JOptionPane.INFORMATION_MESSAGE);
 	}
 
 	public void Segunda(String nome, String personal) {

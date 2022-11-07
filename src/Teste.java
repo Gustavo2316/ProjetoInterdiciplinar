@@ -18,7 +18,7 @@ public class Teste {
 
 		diaDaSemana = Integer.parseInt(p.getDia());
 
-		JOptionPane.showMessageDialog(null, "Olá " + p.getNome() + ", seja bem vindo(a)", "ACADEMIA",
+		JOptionPane.showMessageDialog(null, "Olá " + p.getNome() + ", seja bem vindo(a)", "ACADEMIA TRAINER",
 				JOptionPane.INFORMATION_MESSAGE);
 
 		switch (diaDaSemana) {
