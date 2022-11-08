@@ -11,6 +11,7 @@ public class Teste {
 		DiaSemana ds = new DiaSemana();
 
 		new Splash();
+		ds.charger();
 
 		p.setNome(JOptionPane.showInputDialog(null, "Informe o nome: "));
 		p.setDia(JOptionPane.showInputDialog(null, "Informe um dia da semana: "));

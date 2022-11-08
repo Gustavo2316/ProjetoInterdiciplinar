@@ -9,10 +9,10 @@ import javax.swing.SwingConstants;
 
 public class Splash {
 
-    private final int LARGURA_IMG = 420;
-    private final int ALTURA_IMG = 250;
+    private final int LARGURA_IMG = 400;
+    private final int ALTURA_IMG = 406;
     private final int TEMPO_DE_SPLASH = 9000;
-    private final String CAMINHO_GIF = "/imagem/carregando_gato_satanico.gif";
+    private final String CAMINHO_GIF = "/imagem/naille.gif";
 
     public Splash() {
 
